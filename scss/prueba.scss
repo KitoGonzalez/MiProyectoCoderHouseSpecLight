@@ -1,0 +1,209 @@
+
+*{
+    margin: 0;
+    padding-top: 0mm;
+    padding-bottom: 3mm;
+}
+html{
+    padding: 0cm;
+}
+table{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 52%, rgba(71,2,82,1) 100%);
+}
+body{
+    padding: 0cm;
+    background: rgb(45,45,45);
+background: linear-gradient(90deg, rgba(45,45,45,1) 28%, rgba(0,0,0,1) 100%);
+}
+.oferta{
+    color: blueviolet;
+    background-color: black;
+}
+h1{
+    font-style: italic;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-transform: none;
+}
+header{
+    background: rgb(71,2,82);
+    background: linear-gradient(90deg, rgba(71,2,82,1) 2%, rgba(146,83,187,1) 28%, rgba(165,81,173,1) 54%, rgba(71,2,82,1) 100%);
+    padding: 0mm;
+    position: sticky;
+    
+}
+#mapa{
+   display: flex;
+   flex-direction: row-reverse;
+}
+a{
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    color: #05356e;
+    font-size: 20px;
+}
+.lblanco{
+    color: white;
+    text-align: center;
+}
+#lblanco{
+    color: white;
+    padding-left: 5mm;
+    padding-right: 5mm;
+}
+footer{
+    background: rgb(71,2,82);
+    background: linear-gradient(90deg, rgba(71,2,82,1) 2%, rgba(146,83,187,1) 28%, rgba(165,81,173,1) 54%, rgba(71,2,82,1) 100%);
+    width: 100%;
+    text-align: right;
+    display:inline-block; 
+    
+}
+
+p{
+    font-size: 25px;
+}
+img{
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 0mm;
+    padding-top: 0mm;
+    display:inline;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    padding: 0mm;
+}
+#navTools{
+    background: rgb(71,2,82);
+    background: linear-gradient(90deg, rgba(71,2,82,1) 2%, rgba(146,83,187,1) 28%, rgba(165,81,173,1) 54%, rgba(71,2,82,1) 100%);
+}
+ul{
+    list-style-image: url("../img/mari.png");
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;  
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+#h2Medio{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+#divMagico{
+    height: 100vh;
+    margin: 0;
+    padding: 0mm;
+}
+#divMagico2{
+    height: 100%;
+    margin: 0;
+    padding: 0mm;
+}
+.divGrid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+        grid-template-areas: "s1" "s2" "s3"
+                                "s4" ;
+}
+.itemTabla{
+    color: white;
+    grid-area: 1/2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    
+}
+.itemImagen{
+    grid-area: 2/2;
+    padding: 0mm;
+    display:inline;
+    width: 100%;
+    height: 100%;
+}
+th{
+    color: rgb(107, 4, 122);
+}
+.imgGrid{
+    padding: 0mm;
+    display:inline;
+    width: 100%;
+    height: 100%; 
+}
+.divGrid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "s1" "s2" "s3"
+   
+}
+th:hover{
+    transform: scale(1.1);
+}
+.lblancoP{
+    color: white;
+    font-family: 'STIX Two Math', serif;
+    text-align: justify;
+    padding-left: 2rem; 
+    padding-right: 2 rem;
+    
+}
+.formC{
+    background-image: url("../img/backg_verde.png");
+    margin-top: 0cm;
+
+
+}
+li{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.logo{
+    
+   width: 20%;
+}
+#centrado{
+    text-align: center;
+    border: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.carousel{
+ padding: 0px;
+}
+.lVioleta{
+    color:rgb(100, 6, 114);;
+    font-family: 'Urbanist', sans-serif;
+}
+.padreCarousel{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divMagico3{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.formM{
+   height: 50%;
+   
+}
+.formCenter{
+    display: flex;
+    justify-content: center;
+}
