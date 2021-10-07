@@ -126,7 +126,7 @@ ul {
   height: 100%; }
 
 th {
-  color: #6b047a; }
+  color: #cad6cd; }
 
 .imgGrid {
   padding: 0mm;
@@ -191,3 +191,6 @@ li {
 .formCenter {
   display: flex;
   justify-content: center; }
+
+#navColor {
+  color: #EAE2EC; }
