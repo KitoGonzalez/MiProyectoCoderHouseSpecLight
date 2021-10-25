@@ -146,8 +146,7 @@ th:hover {
   color: white;
   font-family: 'STIX Two Math', serif;
   text-align: justify;
-  padding-left: 2rem;
-  padding-right: 2 rem; }
+  padding: 2rem; }
 
 .formC {
   background-image: url("../img/backg_verde.png");
@@ -170,7 +169,7 @@ li {
   padding: 0px; }
 
 .lVioleta {
-  color: #640672;
+  color: #b024c5;
   font-family: 'Urbanist', sans-serif; }
 
 .padreCarousel {
@@ -194,3 +193,7 @@ li {
 
 #navColor {
   color: #EAE2EC; }
+
+.card {
+  margin-left: 10mm;
+  margin-right: 10mm; }
